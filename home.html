@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1 id="header" style="text-align:center;" class="">My Awesome Website</h1>
+
+<div style="text-align:center;" class="background_div">
+	<p>
+		This is my website.
+	</p>
+	<p>
+		Here is some content.
+	</p>
+
+</div>
+
+<div style="padding: 5em 0px 5em 0px" class="background_div">
+	<p id="my_favorite_animals">My Favorite Animals</p>
+	<dl>
+		<dt>Dogs</dt>
+		<dd>because they are fuzzy and bark alot</dd>
+		<dt>Cats</dt>
+		<dd>because they meow and lick their paws</dd>
+		<dt>Snakes</dt>
+		<dd>because they scare girls</dd>
+	<dl>
+</div>
+
+<br/><br/>
+<select onchange="TemplateSwapper(db,this.value)">
+	<option value="1">Theme 1</option>
+	<option value="2">Theme 2</option>
+	<option value="3">Theme 3</option>
+</select>
+
+
+
+<script type="text/javascript" src="app.js"></script>
+</body>
+<style>
+.theme_1{
+	background-color: #c8abff;
+}
+.theme_1_header{
+	background-color: #9f70f9;
+}
+.theme_2{
+	background-color: #f94d85;
+}
+.theme_2_header{
+	background-color: #dc2762;
+}
+.theme_3{
+	background-color: #27dc88;
+}
+.theme_3_header{
+	background-color: #0fc571;
+}
+.font-red{
+	color: red;
+}
+.font-black{
+	color:black;
+}
+.font-blue{
+	color:blue;
+}
+.font-bold{
+	font-weight:bold;
+}
+.font_small{
+	font-size:2em;
+}
+.font_large{
+	font-size:1.5em;
+}
+.font-style{
+	font-family:serif;
+}
+</style>
+</html>
